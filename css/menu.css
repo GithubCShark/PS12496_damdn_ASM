@@ -1,0 +1,87 @@
+.menu {
+    margin : 0px;
+    padding : 0px;
+    border-radius: 5px;
+    list-style: none;
+    background-color: blue;
+    height: 45px;
+}
+
+ul.menu > li {
+    float : left;
+    margin: 0px;
+    position: relative;
+    width : 140px;
+}
+
+ul.menu > li > a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+ul.menu > li > a:hover {
+    color: yellow;
+    font-weight: bolder;
+}
+
+.sub-menu {
+    position: absolute;
+    list-style-type: none;
+    margin : 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px blue;
+    width : 170px;
+    display : none;
+}
+
+.sub-menu > li > a {
+    display: block;
+    line-height: 35px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+.sub-menu > li > a:hover {
+    font-weight: bolder;
+    color: blue;
+    background-color: white;
+}
+
+.menu >li:hover .sub-menu {
+    display: block; 
+}
+
+.vmenu {
+    padding: 0px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px lightgray;
+    list-style: none;
+}
+
+.vmenu a {
+    display: block;
+    border-bottom: 1px solid blue;
+    color: blue;
+    font-variant: normal;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+
+.vmenu a:hover {
+    border-bottom: 1px solid white;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
